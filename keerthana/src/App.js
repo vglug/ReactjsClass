@@ -20,7 +20,7 @@ function App() {
       </div>
 
       {/* Style using className */}
-      {/* <div className="login">Login Form</div> */}
+      <div className="login">Login Form</div>
 
       {/* Login Form Component Added */}
       {/* <Login /> */}

@@ -11,7 +11,7 @@ function Form() {
           <label for="uname"><b>Username</b></label>
         
         {/* Username InputBox Component added  */}
-          <InputBox type={"text"} placeholder={"Enter Username"} name={"uname"}  />
+          <InputBox type="text" placeholder="Enter Username" name="uname"  />
 
           <label for="psw"><b>Password</b></label>
         {/* Password InputBox Component added */}
