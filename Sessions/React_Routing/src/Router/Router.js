@@ -11,7 +11,7 @@ class MainRouter extends Component {
   render = () => {
     return (
       <Router>
-        <Navnbar />
+        <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/home" exact element={<Home />} />
