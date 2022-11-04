@@ -6,17 +6,19 @@ import Contact from "../Pages/Contact";
 import About from "../Pages/About";
 import PageNotFound from "../Pages/PageNotFound";
 import Navbar from "../Components/Layouts/Navbar";
+import Members from "../Pages/Members";
 
 class MainRouter extends Component {
   render = () => {
     return (
       <Router>
-        <Navnbar />
+        {/* <Navbar /> */}
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/home" exact element={<Home />} />
           <Route path="/about" exact element={<About />} />
           <Route path="/contact" exact element={<Contact />} />
+          <Route path="/members" exact element={<Members/> } />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
