@@ -1,0 +1,11 @@
+
+.login {
+  text-align: center;
+  background-color: #060042;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 20px;
+  width: 30%;
+  margin: 10px auto;
+}
